@@ -1,0 +1,46 @@
+{
+  "name": "nihilminus",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.12.2",
+    "@docusaurus/core": "^2.3.1",
+    "docusaurus-plugin-typedoc": "^0.18.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "2.8.3",
+    "typedoc-plugin-markdown": "^3.14.0",
+    "typescript": "5.2.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "depcheck": "^1.4.3",
+    "typedoc": "^0.25.2",
+    "typedoc-plugin-missing-exports": "^2.1.0"
+  },
+  "packageManager": "pnpm@7.24.3",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react*"
+      ]
+    }
+  },
+  "author": "MargieRitchie",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GerhardDach/nihilminus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GerhardDach/nihilminus.git/issues"
+  }
+}
